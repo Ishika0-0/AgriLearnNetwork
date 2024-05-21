@@ -517,6 +517,15 @@
   {
     display: block;
   }
+  .html{
+    font-size: 55%;
+  }
+  .header{
+    padding: 2rem 3%;
+  }
+  .section{
+    padding: 10rem 3% 2rem;
+  }
   .navbar
   {
     position: absolute;
@@ -583,7 +592,12 @@
   {
     grid-template-columns: repeat(2,1fr);
   }
-
+  .contact{
+    min-width :auto;
+  }
+  .footer{
+    padding: 2rem 3%;
+  }
 }
 
 @media (max-width: 617px)
